@@ -1,3 +1,5 @@
+#Developed by Leandro Lind
+
 from PIL import Image
 import time
 import colorsys
@@ -5,27 +7,11 @@ import math
 
 start_time = time.time()
 
-
-###2
-max_iterations = 3000
-win_max = 200
-scale = 100000000.0
-x_offset = -0.0887911
-y_offset = 0.6548073
-
-###1
-##max_iterations = 70
-##win_max = 800
-##scale = 250.0
-##x_offset = -0.7
-##y_offset = 0
-
-###2
-##max_iterations = 1600
-##win_max = 4000
-##scale = 3500000.0
-##x_offset = -0.0886
-##y_offset = 0.6546
+max_iterations = 100
+win_max = 800
+scale = 250.0
+x_offset = -0.7
+y_offset = 0
 
 img = Image.new("RGB", (win_max, win_max), (0,255,255))
 
