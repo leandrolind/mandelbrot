@@ -47,7 +47,7 @@ for num_y in range(win_max):
 
             z = z**2 + c
 
-            if abs(z) > 100 :
+            if abs(z) > 2 :
                 d = count
 
                 mu = d + 1 - math.log10((math.log10(abs(z)))) / math.log10(2)
