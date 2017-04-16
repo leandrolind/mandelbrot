@@ -33,7 +33,6 @@ for num_y in range(win_max):
     for num_x in range(win_max):
     
         count = 0
-        check = 0
 
         x = (num_x/(scale)) - ((win_max/2)/scale) + x_offset
 
@@ -47,15 +46,15 @@ for num_y in range(win_max):
 
             z = z**2 + c
 
-            if abs(z) > 2 :
+            if abs(z) > 3 :
                 d = count
 
                 mu = d + 1 - math.log10((math.log10(abs(z)))) / math.log10(2)
                 ru = mu / max_iterations
+                count = max_iterations
 
-            if abs(z) > 1000000000000 :
+            if abs(z) > 100000000 :
 
-                check = count
                 count = max_iterations
            
             count += 1
