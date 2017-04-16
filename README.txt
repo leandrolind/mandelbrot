@@ -4,7 +4,7 @@ Developed by Leandro Lind
 ## Synopsis
 This code renders the Mandelbrot Set. For information on what is the Mandelbrot Set and the mathematics behind it, please watch: https://www.youtube.com/watch?v=NGMRB4O922I   
 
-## Requeriments
+## Requirements
 A computer, Python 2.7 and Python Imaging Library (PIL).  
 
 ## Parameters
