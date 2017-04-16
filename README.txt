@@ -11,4 +11,4 @@ A computer, Python 2.7 and Python Imaging Library (PIL).
 Between lines 10 and 14 are the parameters for the print. Change these parameters to zoom in some region. 
 
 ## License
-OGEM is distributed under the GNU General Public License, Version 3.
+Mandelbrot_ver6 is distributed under the GNU General Public License, Version 3.
